@@ -163,8 +163,8 @@
       "@context": "http://schema.org",
       "@type": "Restaurant",
       "name": "Warung Nasi Goreng Online",
-      "logo": "https://example.com/logo.png",
       "url": "https://example.com",
+      "logo": "https://example.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Jl. Raya No. 10",
@@ -179,73 +179,44 @@
           "name": "Nasi Goreng Spesial",
           "description": "Nasi goreng spesial dengan rasa lezat, dilengkapi dengan telur dan ayam suwir.",
           "priceCurrency": "IDR",
-          "price": "10000",
+          "price": 10000,
           "url": "https://example.com/nasi-goreng",
-          "review": {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Pengguna A"
-            },
-            "datePublished": "2024-12-01",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "4.5",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "reviewBody": "Nasi goreng ini sangat lezat, rasa gurih dan pedasnya pas!"
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.5,
+            "reviewCount": 120
           }
         },
         {
           "@type": "MenuItem",
           "name": "Mie Goreng",
-          "description": "Mie goreng dengan rasa pedas dan gurih, dilengkapi dengan sayuran segar.",
+          "description": "Hidangan khas Indonesia yang terbuat dari mie kuning yang digoreng atau ditumis dengan berbagai bumbu dan bahan tambahan.",
           "priceCurrency": "IDR",
-          "price": "15000",
+          "price": 15000,
           "url": "https://example.com/Mie-Goreng",
-          "review": {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Pengguna B"
-            },
-            "datePublished": "2024-11-20",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "4.0",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "reviewBody": "Mie goreng ini rasanya enak, tapi sedikit kurang pedas bagi saya."
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.0,
+            "reviewCount": 85
           }
         },
         {
           "@type": "MenuItem",
           "name": "Kwetiaw Goreng/Rebus",
-          "description": "Kwetiaw dengan pilihan goreng atau rebus, bumbu lezat dan topping ayam.",
+          "description": "Hidangan mie yang merupakan masakan Tionghoa Indonesia yang populer di Indonesia.",
           "priceCurrency": "IDR",
-          "price": "15000",
+          "price": 15000,
           "url": "https://example.com/Kwetiaw-Goreng-Rebus",
-          "review": {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Pengguna C"
-            },
-            "datePublished": "2024-11-15",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "3.8",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "reviewBody": "Kwetiaw-nya cukup enak, meskipun rasa sedikit standar."
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 3.8,
+            "reviewCount": 90
           }
         }
       ]
     }
   </script>
+  
 </head>
 <body>
   <header>
